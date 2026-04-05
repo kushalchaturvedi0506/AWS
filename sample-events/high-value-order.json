@@ -1,0 +1,8 @@
+[
+  {
+    "Source": "ecommerce.orders",
+    "DetailType": "OrderCreated",
+    "Detail": "{\"orderId\":\"ORD-2026-005678\",\"customerId\":\"CUST-123456\",\"orderDate\":\"2026-04-05T14:20:00Z\",\"totalAmount\":5499.99,\"currency\":\"USD\",\"channel\":\"Mobile\",\"items\":[{\"productId\":\"PROD-456\",\"name\":\"Laptop Pro 16\",\"category\":\"Electronics\",\"quantity\":1,\"unitPrice\":2999.99,\"weight\":5.0},{\"productId\":\"PROD-789\",\"name\":\"Wireless Mouse\",\"category\":\"Accessories\",\"quantity\":2,\"unitPrice\":49.99,\"weight\":0.2},{\"productId\":\"PROD-101\",\"name\":\"Premium Headphones\",\"category\":\"Audio\",\"quantity\":1,\"unitPrice\":399.99,\"weight\":0.8}],\"shippingAddress\":{\"street\":\"456 Tech Avenue\",\"city\":\"San Francisco\",\"state\":\"CA\",\"zipCode\":\"94105\",\"country\":\"US\"}}",
+    "EventBusName": "ecommerce-order-processing-dev"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Source": "ecommerce.orders",
+    "DetailType": "OrderUpdated",
+    "Detail": "{\"orderId\":\"ORD-2026-001234\",\"customerId\":\"CUST-567890\",\"updateType\":\"StatusChange\",\"oldStatus\":\"Processing\",\"newStatus\":\"Shipped\",\"trackingNumber\":\"1Z999AA10123456784\",\"updatedAt\":\"2026-04-06T09:15:00Z\"}",
+    "EventBusName": "ecommerce-order-processing-dev"
+  }
+]
